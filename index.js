@@ -65,7 +65,7 @@ app.post("/pdf", (req, res) => {
   doc.end();
 });
 
-const port = process.env.PORT || 8080;
+const port = 8080;
 const host = process.env.HOSTNAME || "0.0.0.0";
 
 // Launch Node.js server
